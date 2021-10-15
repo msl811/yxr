@@ -1,0 +1,561 @@
+.top {
+	width: 100%;
+	height: 7px;
+	border: none;
+	border: 1px solid #CF0000;
+	background-color: #CF0000;
+}
+
+.head h3 {
+	font-size: 40px;
+	font-weight: bold;
+	padding: 80px;
+	margin: -60px 0px 0px 200px;
+	background: url(../img/logo.jpg) no-repeat;
+	background-position: left center;
+}
+
+.zhonghua {
+	border-left: 1px solid #ccc;
+	margin: -85px 0px 0px 260px;
+}
+
+.zhonghua p,
+.hmf p {
+	font-family: "楷体";
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.zhonghua p {
+	margin-left: 15px;
+}
+
+.hmf {
+	margin-top: -54px;
+	margin-left: 570px;
+}
+
+.sjw {
+	width: 270px;
+	height: 70px;
+	position: absolute;
+	right: 150px;
+	top: 80px;
+	text-align: right;
+}
+
+.sjw p {
+	font-size: 12px;
+	color: #858585;
+	line-height: 20px;
+}
+
+.sjw a {
+	font-size: 15px;
+	color: #858585;
+	text-decoration: none;
+}
+
+.sjw a:hover {
+	color: #FF0000;
+}
+
+
+/*导航栏*/
+
+.seach {
+	height: 70px;
+	width: 100%;
+	background-color: #F4F4F4;
+	margin-top: 40px;
+}
+
+.seach li {
+	font-size: 20px;
+	line-height: 70px;
+	list-style: none;
+	float: left;
+	margin-left: 120px;
+}
+
+.seach li a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.seach li a:hover {
+	color: #FF0000;
+}
+/*杂志*/
+.magazine{
+	width: 100%;
+	height: 507px;
+	background: url(../img/banner2.jpg)no-repeat;
+	background-color: #F0F0F0;
+	padding-top: 30px;
+	clear: both;
+}
+.mag{
+	width: 895px;
+	height: 475px;
+}
+.main1{
+    width: 211px;
+	height: 38px;
+	border-left: 7px #EA5413 solid;
+	line-height: 38px;
+}
+.main1 span{
+	margin-left: 10px;
+}
+.zazhi{
+	font-size: 36px;
+	color: black;
+	font-weight: bold;
+}
+.Magazine{
+	font-size: 24px;
+	color: #6B6B6B;
+}
+
+/*红色圆圈的序号*/
+.item span{
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+	background: #ff0000;
+	border-radius: 50%;
+	font-size: 18px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin-top: 10px;
+}
+.item li{
+	width: 235px;
+	list-style: none;
+	margin-top: 15px;
+}
+
+/*《中国红木古典家具》《中式生活》《红木》《中华木作》*/
+.item a{
+	display: inline-block;
+	width: 179px;
+	height: 37px;
+	border-radius: 20%;
+	text-align: center;
+	background-color: #6B6B6B;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+/*解释*/
+.item p{
+	font-family: "楷体";
+	width: 890px;
+	height: 190px;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 10px;
+	line-height: 25px;
+	padding:20px 20px;
+	display: none;
+	text-indent: 2em;
+}
+
+/*关键*/
+.item li:hover p{
+	display: block;
+}
+
+/*网站 content */
+.cnbanner{
+	width: 100%;
+	height: 475px;
+	background:url(../img/banner3.jpg);
+	padding-top: 35px;
+}
+/*标题div*/
+.cnwz{
+	width: 220px;
+	height: 38px;
+	line-height: 38px;
+	border-left: 7px #EA5413 solid;
+	margin-left:273px;
+}
+/*网站这两字*/
+.wzzt1{
+	font-size: 36px;
+	font-weight: bold;
+	color: black;
+	margin-left: 10px;
+}
+/*Web site字的样式*/
+.wzzt2{
+	font-size: 24px;
+	color: #6B6B6B;
+	margin-top: 20px;
+}
+.wznr{
+	width: 727px;
+	height: 298px;
+	background-color: #000000;
+	margin-top: 40px;
+	padding: 25px 50px;
+}
+ .wznr img{
+	text-align: center;
+	margin-top: 60px;
+	margin-left: 45px;
+	
+}
+/*五个小盒子 */
+.wzfl{
+	float:left;
+	position: relative;
+}
+
+/*两行字的div样式*/
+.wzwa{
+	width: 337px;
+	height: 94px;
+	background-color: #F4F2EB;
+	border-radius: 10px;
+	position: absolute;
+	left: 136px ;top: -70px;
+	padding: 10px;
+	display: none;
+}
+/*中国红木古典家具网*/
+.wzwz{
+	font-size: 16px;
+	color:#668EB1;
+	font-weight: bold;
+}
+
+/*网站页面点击图片显示的解释文字*/
+.wzwz2{
+	font-family: "楷体";
+	font-size: 14px;
+	color:#616161;
+	line-height: 20px;
+}
+.wzfl:hover .wzwa{
+	display: block;
+}
+/*影视 content2 */
+.cn2banner{
+	width: 100%;
+	height: 475px;
+	background:url(../img/banner4.jpg);
+	padding-top: 35px;
+	position: relative;
+}
+.cn2nr{
+	width: 772px;
+	height: 381px;
+	margin-top: 60px;
+}
+.tp{
+    width: 100px;
+	height: 87px;
+	margin-top: 10px;
+}
+.tp img{
+    border-style: solid;
+	border-color: #4A4A4A;
+	border-width: 19px 12px;
+}
+.cn2wa{
+	width: 394px;
+	height: 321px;
+	background-color: #CCC7C7;
+	position: absolute;
+	left: 680px; top: 80px;
+	padding: 30px;
+	margin-left: -25px;
+	display: none;
+}
+.cn2wa p{
+	padding-left: 10px;
+	display: inline-block;
+	width: 140px;
+	height: 150px;
+	font-size: 14px;
+	line-height: 22px;
+}
+.cn2wa span{
+	text-indent: 2em;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+}
+.tp img:hover{
+	border-color: #939191;
+}
+/*新媒体 content3 */
+.cn3banner{
+	width: 100%;
+	height: 445px;
+	background:url(../img/banner5.jpg);
+	padding-top: 30px;
+}
+.wzzt3{
+	font-size: 36px;
+	font-weight: bold;
+	color: black;
+	margin-left: 10px;
+}
+.cnwz3{
+	width: 320px;
+	height: 38px;
+	line-height: 38px;
+	border-left: 7px #EA5413 solid;
+	margin-left:273px;
+}
+.cn3nr{
+	width: 890px;
+	height: 289px;
+	margin-top: 53px;
+}
+.nr3t{
+	position: relative;
+	width: 100px;
+	float: left;
+}
+.nr3wa{
+	width: 169px;
+	height: 30px;
+	background-color: #20939C;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	line-height: 18px;
+}
+.nr3wa p{
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+}
+.cn3hov{
+	width: 285px;
+	height: 251px;
+	background-color: #DCDCDC;
+	position: absolute;
+	left: 200px ; top: 0;
+	padding: 17px;
+	line-height: 25px;
+	display: none;
+	z-index: 10;
+}
+.cn3hov p{
+	font-size: 14px;
+	color: #000000;
+}
+.nr3t:hover .cn3hov{
+	display:block;
+}
+/*营销顾问 content4 */
+.cn4banner{
+	width: 100%;
+	height: 445px;
+	background:url(../img/banner6.jpg);
+	padding-top: 30px;
+}
+.wzzt4{
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 10px;
+}
+.cnwz4{
+	width: 420px;
+	height: 38px;
+	line-height: 38px;
+	border-left: 7px #EA5413 solid;
+	margin-left:273px;
+}
+.cn4a{
+	width: 894px;
+	height: 287px;
+	margin-top: 30px;
+	
+}
+.cn4a img{
+	margin-top: 10px;
+	float: left;
+}
+.cn4wa{
+	width: 705px;
+	height: 281px;
+	margin-left: 187px;
+}
+.cn4wa h4{
+	 font-size: 18px;
+	 color: #fff;
+	 font-weight: bold; 
+	 text-indent: -5px;
+}
+.cn4wa p{
+	color: #fff;
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 28px;
+}
+/*指导机构 content5 */
+.cn5banner{
+	width: 100%;
+	height: 366px;
+	background-color: #D9E0E5;
+	padding-top: 30px;
+}
+.wzzt5{
+	font-size: 36px;
+	color: black;
+	margin-left: 10px;
+}
+.cn5nr{
+	width: 900px;
+	height: 284px;
+}
+.cn5nr1{
+	width: 900px;
+	height: 80px;
+}
+.nra{
+	width: 126px;
+	height: 34px;
+	border-radius: 10px;
+	background-color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height:34px;
+	text-align: center;
+	float: left;
+}
+.nrb{
+	width: 353px;
+	height: 57px;
+	background: url(../img/jg1.jpg)no-repeat 30px center;
+	background-color: #fff;
+	border-radius: 10px;
+	float: left;
+	padding-top: 20px;
+	margin-left: 30px;
+}
+.nrb p{
+	font-size: 14px;
+	color: black;
+	margin-left: 100px;
+	line-height: 20px;
+}
+.nrc{
+	width: 353px;
+	height: 57px;
+	background: url(../img/jg2.jpg)no-repeat 30px center;
+	background-color: #fff;
+	border-radius: 10px;
+	float: left;
+	padding-top: 20px;
+	margin-left: 30px;
+}
+.nrc p{
+	font-size: 14px;
+	color: black;
+	margin-left: 100px;
+	line-height: 20px;
+}
+.cn5nr2{
+	width: 900px;
+	height: 80px;
+	margin-top: 13px;
+}
+.cn5nr2 img{
+	margin-left: 30px;
+}
+.nrd{
+	width: 378px;
+	height: 87px;
+	background-color: #FFFFFF;
+	margin-left: 160px;
+	padding: 20px 40px;
+	line-height: 22px;
+}
+/*分支机构 content6 */
+.cn6{
+	width: 100%;
+	height: 484px;
+	background-color: #D9E0E5;
+}
+.cn6nr1{
+	width: 897px;
+	height: 430px;
+	margin-top: 14px;
+}
+.dt1{
+	float: left;
+}
+.tou{
+	width: 346px;
+	height: 34px;
+	border-radius: 10px;
+	background:url(../img/fh.jpg) no-repeat 320px center;
+	background-color: #000000;
+	float: right;
+	line-height:25px ;
+	padding-left: 10px;
+}
+.tou a{
+	color: #fff;
+	font-weight: bold;
+}
+.shen{
+	margin-top: -8px;
+	width: 356px;
+	height: 162px;
+	background-color: #F2F2F2;
+	float: right;
+	padding-top: 20px;
+}
+.shen1{
+	margin: auto;
+	width: 310px;
+	height: 45px;
+	border-bottom: 1px dashed    #979797;
+}
+.shen p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.ti{
+	margin-top: 12px;
+	width: 316px;
+	height: 139px;
+	background-color: #F2F2F2;
+	float: right;
+	padding: 20px;
+}
+.ti p{
+	font-size: 14px;
+	line-height: 23px;
+}
+/* footer */
+.footer{
+	width: 100%;
+	height: 73px;
+	background-color: #000000;
+	
+}
+.footer p{
+	padding-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+}
+.footer span{
+	margin-left: 40px;
+}

@@ -1,0 +1,97 @@
+.nav{
+			height: 50px;
+			width: 100%;
+			background: #2D2D30;
+		}
+		.nav img{
+			height: 50px;
+		}
+		.nav span{
+			font-family: "楷体";
+			font-size: 27px;
+			font-weight: bold;
+			color: #fff;
+			margin-left: 30px;
+		}
+		ul{
+			list-style: none;
+			width: 100%;
+			margin-top: -38px;
+		}
+		ul li{
+			float: right;
+			margin: 0px 5px 0px 15px;		
+		}
+		ul li a {
+			font-family: "楷体";
+			font-size: 20px;
+			color: #fff;
+			margin-top: 10px;
+			text-decoration: none;	
+		}
+		ul li a:hover{
+			color: #FF0000;
+			text-decoration: none;
+		}
+.scroll_div {
+				overflow: hidden;
+				white-space: nowrap;
+				width: 74%;
+				margin-left: 200px;
+			}
+			
+			.scroll_div img {
+				height: 500px;
+				border: 0;
+				margin: auto 1px;
+				border: 0px;
+			}
+			/*设置ul和li横排*/
+			#scroll_begin,
+			#scroll_end,
+			#scroll_begin ul,
+			#scroll_end ul,
+			#scroll_begin ul li,
+			#scroll_end ul li {
+				display: inline;
+			}
+.pic{
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.pic img{
+	width: 90%;
+	margin: 10px 0 10px 13px;
+}
+.main{
+	margin-top: 20px;
+	background-color: #F8F8F8;
+}
+.main h3{
+	font-family:"楷体" ;
+	text-align: center;
+}
+.main p{
+	font-family:"楷体" ;
+	font-size: 16px;
+	text-indent: 2em;
+	padding: 0px 15px 0px 15px;
+}
+.foot{
+	clear: both;
+	height: auto;
+	border: 1px solid #222;
+	padding: 10px 10px 5px 10px;
+}
+.foot .sm p{
+	text-align: center;
+	padding: 5px 0px;
+	margin: -10px;
+	background-color: #2D2D30;
+	color: #fff;
+}
+.foot span{
+	margin-top: 50px;
+	line-height: 23px;
+}
+

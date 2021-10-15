@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<!--<link href="css/style.css" rel="stylesheet"/>-->
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<script src="js/jquery-3.6.0.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<title>加入我们</title>
+	</head>
+	<style>
+	.button button{
+		display: block;
+		margin: 300px 700px;
+	}
+	</style>
+
+	<body>
+		<div class="button">
+			<button class="btn btn-success"  data-toggle="modal" data-target="#motaikuang">点我试试看！</button>
+		</div>
+		<!--模态框：头，主体，尾-->
+		<div class="modal" id="motaikuang">
+			<div class="modal-content modal-dialog">
+				<!--头，主体，尾-->
+				<div class="modal-header">
+					<!--模态框中用于关闭窗体的属性和值  data-dismiss="modal"-->
+					<button class="close" data-dismiss="modal">&times;</button>
+					<h1><span class="glyphicon glyphicon-lock"></span> Welcome</h1>
+				</div><!--头-->
+				<div class="modal-body">
+					<!--表单-->
+					<form>
+						<!--<div class="form-group">
+						<label><span class="glyphicon glyphicon-shopping-cart"></span> Tickets,每人23元</label>
+						<input type="number" placeholder="How Many?" class="form-control">
+						</div>-->
+						<img src="img/welcome.gif" width="50%" style="margin-left: 150px;">
+						<div class="form-group">
+							<label><span class="glyphicon glyphicon-shopping-user"></span> 发送</label>
+							<input type="text" placeholder="Enter email" class="form-control">	
+						</div>
+						<!--提交按钮-->
+						<button class="btn btn-default btn-block">提交<span class="glyphicon glyphicon-ok"></span></button>
+					</form>
+				</div><!--主体-->
+				<div class="modal-footer">
+					<button class="btn btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>取消</button>
+					<p>需要<a href="#"> &nbsp;帮助？</a></p>
+				</div><!--尾-->
+			</div>
+		</div>
+	</body>
+</html>
